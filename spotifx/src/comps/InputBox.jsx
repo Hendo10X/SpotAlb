@@ -10,7 +10,7 @@ export function InputWithButton({ onChange, onClick, onKeyDown }) {
                 onKeyDown={onKeyDown}
                 onChange={onChange}
             />
-            <Button
+            <Button variant="ghost"
                 onClick={onClick} //
                 className="bg-white text-black hover:bg-lime-300 border-gray-100"
                 type="submit"
