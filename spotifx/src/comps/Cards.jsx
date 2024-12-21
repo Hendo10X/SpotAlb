@@ -17,10 +17,10 @@ export function CardWithForm({ name, imageUrl, releaseDate, spotifyUrl }) {
                 />
                 <div>
                     <h2 className="text-sm font-semibold tracking-tight mt-2">{name}</h2>
-                    <p className="text-xs text-muted-foreground">Release Date: {releaseDate}</p>
+                    <p className="text-xs text-muted-foreground mt-2">Release Date: {releaseDate}</p>
                 </div>
                 <a href={spotifyUrl} target="_blank" rel="noopener noreferrer">
-                    <Button className="w-full text-sm mt-6">Open on Spotify</Button> {/* Smaller button */}
+                    <Button className="w-full text-sm mt-6 bg-white text-black hover:bg-lime-300">Open on Spotify</Button> {/* Smaller button */}
                 </a>
             </CardContent>
         </Card>

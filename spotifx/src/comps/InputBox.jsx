@@ -12,7 +12,7 @@ export function InputWithButton({ onChange, onClick, onKeyDown }) {
             />
             <Button
                 onClick={onClick} //
-                className="bg-white text-black hover:bg-gray-100 border-gray-300"
+                className="bg-white text-black hover:bg-lime-300 border-gray-100"
                 type="submit"
             >
                 Search
