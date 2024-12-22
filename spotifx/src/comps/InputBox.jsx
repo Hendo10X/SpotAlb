@@ -6,9 +6,10 @@ export function InputWithButton({ onChange, onClick, onKeyDown }) {
         <div className="flex w-full max-w-sm items-center space-x-4">
             <Input
                 type="email"
-                placeholder="Search Artist"
+                placeholder="Search Artist to find album"
                 onKeyDown={onKeyDown}
                 onChange={onChange}
+                className="border border-gray-300 rounded-md focus:border-transparent w-full"
             />
             <Button variant="ghost"
                 onClick={onClick} //
@@ -20,7 +21,6 @@ export function InputWithButton({ onChange, onClick, onKeyDown }) {
         </div>
     );
 }
-
 
 
 
